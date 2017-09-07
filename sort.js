@@ -10,6 +10,11 @@ function sortInstagram() {
         medias.push({node, time});
     }
 
+    // Instagram need the last loaded media to load the next content when the user scroll down.
+    let lastItem = articles[iMax - 1];
+    // We hide the last loaded media to avoid post duplication
+    lastItem.style.display = 'none';
+
     medias = medias.sort((a, b) => {
         return b.time.localeCompare(a.time);
     });
@@ -19,6 +24,8 @@ function sortInstagram() {
     medias.forEach((e) => {
         parent.appendChild(e.node);
     });
+    // We add the last loaded media. It is invisible for the user.
+    parent.appendChild(lastItem);
 }
 
 sortInstagram();

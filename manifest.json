@@ -2,8 +2,7 @@
     "manifest_version": 2,
     "name": "InstagramChronologicalOrder",
     "short_name": "Instagram Chronological Order",
-    "default_locale": "en",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Sort Instagram Home page by chronological order",
     "browser_action": {
         "default_icon": "assets/icon128.png",
