@@ -3,6 +3,7 @@ Chrome extension to sort media from the Instagram front page.
 
 ## Installation
 
+[Chrome Web Store](https://chrome.google.com/webstore/detail/instagramchronologicalord/hmcdhnimbkkabfklfhognhaplgogmoma)
 
 ## Improvements
 
